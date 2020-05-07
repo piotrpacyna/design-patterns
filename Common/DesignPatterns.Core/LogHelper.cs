@@ -21,5 +21,10 @@ namespace DesignPatterns.Core
         {
             Console.WriteLine(new string('-', 40));
         }
+
+        public static void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
